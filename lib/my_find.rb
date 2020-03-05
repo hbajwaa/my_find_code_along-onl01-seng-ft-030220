@@ -16,5 +16,5 @@ end
 collection = (1..100).to_a
 
 my_find(collection) do |num|
-  num % 3 == 0 and i % 5 == 0
+  num % 3 == 0 and num % 5 == 0
 end
